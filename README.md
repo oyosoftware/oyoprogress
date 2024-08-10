@@ -28,7 +28,7 @@
   <li>Start and end value can be defined.</li>
   <li>Text can be set with the parameters &value, &min, &max, &start, &end and &percentage.</li>
   <li>The unit of the value can be set and is integrated in the text.</li>
-  <li>showLimits property: shows information about the start and end values in the progress bar.</li>
+  <li>showLimits property shows information about the start and end values in the progress bar.</li>
   <li>Border can be changed.</li>
   <li>Colors of bar and progress bar can be changed.</li>
   <li>Font: family, size and weight can be changed.</li>
