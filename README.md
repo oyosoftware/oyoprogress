@@ -23,12 +23,19 @@
 <h3>Features</h3>
 <ul>
   <li>A progress bar  that is browser independent.</li>
-  <li>Slider can be enabled/disabled.</li>
-  <li>Automatic value change, can also be set.</li>
-  <li>Minimum value, maximum value and step can be defined.</li>
-  <li>Cursor keys control can be assigned to another element.</li>
-  <li>Colors can be changed.</li>
-  <li>Size of all parts can be changed.</li>
+  <li>Value can of course be set.</li>
+  <li>Minimum value and maximum value can be defined.</li>
+  <li>Start and end value can be defined.</li>
+  <li>Text can be set with the parameters &value, &min, &max, &start, &end and &percentage.</li>
+  <li>The unit of the value can be set and is integrated in the text.</li>
+  <li>showLimits property: shows information about the start and end values in the progress bar.</li>
+  <li>Border can be changed.</li>
+  <li>Colors of bar and progress bar can be changed.</li>
+  <li>Font: family, size and weight can be changed.</li>
+  <li>Colors of bar text and progress bar text can be changed.</li>
+  <li>Text outline: width, bar color and progress bar color can be changed.</li>
+  <li>Colors can be reset.</li>
+  <li>Size can be changed.</li>
 </ul>
 <h2>Contact</h2>
 <ul>
