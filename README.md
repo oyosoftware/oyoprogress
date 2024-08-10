@@ -1,6 +1,6 @@
 # oyoprogress
 <a href="http://oyosoftware.nl/plugins/oyoprogress/testprogress.html" target="_blank">
-  <img src="http://oyosoftware.nl/plugins/oyoprogress/oyoprogress.jpg" alt="oyoprogress">
+  <img src="http://oyosoftware.nl/plugins/oyoprogress/oyoprogres.jpg" alt="oyoprogress">
 </a>
 <p>Progress Component</p>
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;currency_code=EUR&amp;business=code@oyosoftware.nl&amp;item_name=donation%20for%20oyoslider" rel="nofollow">
