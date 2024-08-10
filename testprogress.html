@@ -1,0 +1,54 @@
+<html>
+
+    <head>
+        <title>Test Progress</title>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.4.0.js"></script>
+        <script src="oyoprogress.js"></script>
+        <style>
+
+        </style>
+    </head>
+
+    <body>
+        <script>
+            $(document).ready(function () {
+
+                progress1 = new oyoProgress(800, 50);
+                $("body").append(progress1);
+                $("body").append("<br/>");
+
+                progress2 = new oyoProgress(800, 100);
+                $("body").append(progress2);
+
+                progress2.changeColors("red", "mediumseagreen");
+                progress2.changeTextColors();
+                progress2.changeTextStroke(1, "yellow", "yellow");
+                progress2.changeFont("Arial", "32px");
+                progress2.min = -20;
+                progress2.max = 40;
+                progress2.showLimits = true;
+                progress2.unit = "°C";
+                progress2.start = -5;
+                progress2.end = 25;
+                progress2.text = "&value of &min/&max (&percentage)";
+                progress2.changeBorder("5px solid black");
+
+                progress1.value = 0;
+                progress2.value = -5;
+
+                var value = 0;
+                var interval = setInterval(function () {
+                    value += 1;
+                    if (value <= 100) {
+                        progress1.value = value;
+                        progress2.value = value - 15;
+                    } else {
+                        clearInterval(interval);
+                    }
+                }, 100);
+
+            });</script>
+
+    </body>
+</html>
