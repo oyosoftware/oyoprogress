@@ -31,7 +31,7 @@
   <li>showLimits property shows information about the start and end values in the progress bar.</li>
   <li>Border can be changed.</li>
   <li>Colors of bar and progress bar can be changed.</li>
-  <li>Font: family, size and weight can be changed.</li>
+  <li>Font family, size and weight can be changed.</li>
   <li>Colors of bar text and progress bar text can be changed.</li>
   <li>Text outline: width, bar color and progress bar color can be changed.</li>
   <li>Colors can be reset.</li>
