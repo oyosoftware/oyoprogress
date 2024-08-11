@@ -24,7 +24,7 @@ function oyoProgress(progressWidth, progressHeight, progressBorderRadius) {
     var progressStart = 0;
     var progressEnd = 100;
     var progressValue = 0;
-    var progressText = "&percentage Complete";
+    var progressText = "&perc Complete";
     var progressUnit = "";
     var showLimits = false;
 
@@ -231,7 +231,7 @@ function oyoProgress(progressWidth, progressHeight, progressBorderRadius) {
         percentage = Math.floor(percentage);
         var text = progressText;
         text = text.replaceAll(" ", "&nbsp;");
-        text = text.replaceAll("&percentage", percentage + "%");
+        text = text.replaceAll("&perc", percentage + "%");
         text = text.replaceAll("&min", progressMin + progressUnit);
         text = text.replaceAll("&max", progressMax + progressUnit);
         text = text.replaceAll("&start", progressStart + progressUnit);
