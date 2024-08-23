@@ -19,7 +19,7 @@
   <li><strong>source</strong> https://github.com/oyosoftware/oyoprogress</li>
 </ul>
 <h2>Description</h2>
-<p>jQuery component for a progress bar.x</p>
+<p>jQuery component for a progress bar.</p>
 <h3>Features</h3>
 <ul>
   <li>A progress bar  that is browser independent.</li>
