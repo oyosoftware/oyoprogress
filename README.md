@@ -2,7 +2,7 @@
 <a href="http://oyosoftware.nl/plugins/oyoprogress/testprogress.html" target="_blank">
   <img src="http://oyosoftware.nl/plugins/oyoprogress/oyoprogress.jpg" style="width: 455px" alt="oyoprogress">
 </a>
-<p>jQuery component for a progress bar</p>
+<p>Progress Bar Component</p>
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;currency_code=EUR&amp;business=code@oyosoftware.nl&amp;item_name=donation%20for%20oyoslider" rel="nofollow">
   <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate via PayPal" style="max-width: 100%;vertical-align: top">
 </a>
